@@ -15,6 +15,7 @@
 		38EA0F991B6086EC00B2DD8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38EA0F971B6086EC00B2DD8B /* LaunchScreen.xib */; };
 		38EA0FA51B6086EC00B2DD8B /* ICAlertViewAndActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA0FA41B6086EC00B2DD8B /* ICAlertViewAndActionSheetTests.m */; };
 		38EA0FB01B60871700B2DD8B /* ICInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EA0FAF1B60871700B2DD8B /* ICInfomationView.m */; };
+		A18FE9361B63520A006BE607 /* ICInfomationView_Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FE9351B63520A006BE607 /* ICInfomationView_Runtime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		38EA0FA41B6086EC00B2DD8B /* ICAlertViewAndActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAlertViewAndActionSheetTests.m; sourceTree = "<group>"; };
 		38EA0FAE1B60871700B2DD8B /* ICInfomationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICInfomationView.h; sourceTree = "<group>"; };
 		38EA0FAF1B60871700B2DD8B /* ICInfomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICInfomationView.m; sourceTree = "<group>"; };
+		A18FE9341B63520A006BE607 /* ICInfomationView_Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICInfomationView_Runtime.h; sourceTree = "<group>"; };
+		A18FE9351B63520A006BE607 /* ICInfomationView_Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICInfomationView_Runtime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 			children = (
 				38EA0FAE1B60871700B2DD8B /* ICInfomationView.h */,
 				38EA0FAF1B60871700B2DD8B /* ICInfomationView.m */,
+				A18FE9341B63520A006BE607 /* ICInfomationView_Runtime.h */,
+				A18FE9351B63520A006BE607 /* ICInfomationView_Runtime.m */,
 				38EA0F871B6086EC00B2DD8B /* ICAlertViewAndActionSheet */,
 				38EA0FA11B6086EC00B2DD8B /* ICAlertViewAndActionSheetTests */,
 				38EA0F861B6086EC00B2DD8B /* Products */,
@@ -228,6 +233,7 @@
 				38EA0F911B6086EC00B2DD8B /* ViewController.m in Sources */,
 				38EA0F8E1B6086EC00B2DD8B /* AppDelegate.m in Sources */,
 				38EA0F8B1B6086EC00B2DD8B /* main.m in Sources */,
+				A18FE9361B63520A006BE607 /* ICInfomationView_Runtime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ICInfomationView.h"
+#import "ICInfomationView_Runtime.h"
 @interface ViewController ()
 
 @end
@@ -28,9 +29,18 @@
 }
 -(void)clickAlert
 {
-    [ICInfomationView initWithTitle:@"哈哈,我没有使用代理，我是blocks" message:@"呵呵" cancleButtonTitle:@"好吧" OtherButtonsArray:@[@"嗯呢"] clickAtIndex:^(NSInteger buttonAtIndex) {
+    
+    
+    //没有用runtime
+//    [ICInfomationView initWithTitle:@"哈哈,我没有使用代理，我是blocks" message:@"呵呵" cancleButtonTitle:@"好吧" OtherButtonsArray:@[@"嗯呢"] clickAtIndex:^(NSInteger buttonAtIndex) {
+//        NSLog(@"click index ====%ld",(long)buttonAtIndex);
+//    }];
+    
+    //用了runtime
+    [ICInfomationView_Runtime initWithTitle:@"哈哈,我没有使用代理，我是runtime blocks" message:@"呵呵" cancleButtonTitle:@"好吧" OtherButtonsArray:@[@"嗯呢"] clickAtIndex:^(NSInteger buttonAtIndex) {
         NSLog(@"click index ====%ld",(long)buttonAtIndex);
     }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
