@@ -41,7 +41,9 @@ const char *IC_alertView_Block = "IC_alertView_Block";
     [al show];
     return al;
 }
+
 #pragma mark   UIAlertViewDelegate
+
 +(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (alertView.clickBlock) {
@@ -49,11 +51,5 @@ const char *IC_alertView_Block = "IC_alertView_Block";
         alertView.clickBlock(buttonIndex);
     }
 }
-+(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
-{
-    if (alertView.clickBlock) {
-        
-        alertView.clickBlock(buttonIndex);
-    }
-}
+
 @end
